@@ -18,18 +18,23 @@
     background-color: white;
 
     animation-name: load-content;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-fill-mode: forwards; 
     overflow: hidden;
   }
+
+  .loading_content--hidden{
+    opacity:0;
+    visibility:hidden;
+  }
   
-  .loading {
+   .load {
     border: 7px solid #ff6060;
     border-top: 7px solid white;
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    animation: loading 600ms ;
+    animation: loading 1s ;
     animation-iteration-count: infinite;
   }
   
