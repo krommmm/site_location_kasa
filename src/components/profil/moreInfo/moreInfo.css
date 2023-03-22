@@ -18,11 +18,12 @@
     background-color: white;
 
     animation-name: load-content;
-    animation-duration: 400ms;
+    animation-duration: 1s;
     animation-fill-mode: forwards; 
     overflow: hidden;
+    
   }
-  
+
   .loading {
     border: 7px solid #ff6060;
     border-top: 7px solid white;
@@ -32,6 +33,15 @@
     animation: loading 400ms ;
     animation-iteration-count: infinite;
   }
+
+  .loading_content--hidden{
+    display:none;
+  }
+
+  .loading--hidden{
+    display:none;
+  }
+
   
   @keyframes loading {
     from {
