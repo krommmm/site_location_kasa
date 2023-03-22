@@ -9,7 +9,7 @@ const Home = () => {
 	return (
 		<>
 			<div className="loading_content loading_content--hidden">
-				<div className="load"></div>
+				<div className="loading"></div>
 			</div>
 
 			<div className="home">
