@@ -18,7 +18,7 @@
     background-color: white;
 
     animation-name: load-content;
-    animation-duration: 400ms;
+    animation-duration: 5s;
     animation-fill-mode: forwards; 
     overflow: hidden;
   }
@@ -29,8 +29,8 @@
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    animation: loading 400ms ;
-    animation-iteration-count: 1;
+    animation: loading 600ms ;
+    animation-iteration-count: infinite;
   }
   
   @keyframes loading {
