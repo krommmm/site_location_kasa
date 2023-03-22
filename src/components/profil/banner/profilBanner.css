@@ -1,0 +1,47 @@
+.profilBanner {
+	width: 100%;
+	position: relative;
+	overflow:hidden;
+	width: 70vw;
+}
+
+.profilBanner .elements {
+	display: flex;
+	width: 100%;
+	transition: 1s ease;
+}
+
+.profilBanner .elements .element {
+	position: relative;
+	width: 100%;
+}
+
+.profilBanner .element_img {
+	width: 70vw;
+	height: 20vw;
+	border-radius: 15px;
+	object-fit: cover;
+}
+
+.chevron_gauche,
+.chevron_droit {
+	position: absolute;
+	top: 40%;
+	width: 50px;
+}
+
+.chevron_gauche {
+	left: 2%;
+}
+
+.chevron_droit {
+	right: 2%;
+}
+
+.indexion{
+	position:absolute;
+	font-size:30px;
+	color: white;
+	bottom:3%;
+	left:50%;
+}

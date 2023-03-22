@@ -1,0 +1,32 @@
+.equipements {
+    width:30vw;
+	position: relative;
+    overflow:hidden;
+}
+
+
+.equipements .arrow2 {
+	width: 30px;
+	object-fit: contain;
+	/*transform:rotate(180deg);*/
+	transition: 400ms ease;
+}
+
+.equipements_text {
+    width:30vw;
+	position: relative;
+	top: 0%;
+	z-index: 20;
+	padding: 10px;
+	transition: 400ms ease;
+	background: #f7f7f7;
+	border-radius: 5px;
+	color: #ff6060;
+	font-size: 25px;
+	margin: 0px;
+	padding: 15px;
+}
+
+.equipements_text p{
+    margin:0px;
+}

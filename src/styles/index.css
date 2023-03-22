@@ -1,0 +1,10 @@
+@import "./utils.css";
+@import "../components/header/header.css";
+@import "../components/footer/footer.css";
+@import "../components/home/banner/homeBanner.css";
+@import "../components//home//card/card.css";
+@import "../components/profil/banner/profilBanner.css";
+@import "../components/profil//logement//logement.css";
+@import "../components/profil//moreInfo//moreInfo.css";
+@import "../components/profil/moreInfo/description/description.css";
+@import "../components/profil/moreInfo/equipements/equipements.css";

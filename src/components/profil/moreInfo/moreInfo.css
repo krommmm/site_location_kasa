@@ -1,0 +1,59 @@
+.moreInfo{
+    display:flex;
+    justify-content:space-between;
+}
+
+.loading_content {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: -100%;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    background-color: white;
+
+    animation-name: load-content;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards; 
+    overflow: hidden;
+  }
+  
+  .loading {
+    border: 7px solid #ff6060;
+    border-top: 7px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: loading 400ms ;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes loading {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes load-content {
+    0% {
+      opacity: 1;
+      transform: translateY(100%);
+    }
+    80% {
+      opacity: 1;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(0%);
+    }
+  }

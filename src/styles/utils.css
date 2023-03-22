@@ -1,0 +1,19 @@
+html,body{
+    margin:0px;
+    padding: 0px;
+
+}
+#root{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+
+}
+
+.home, .info, .profil{
+ flex:1;
+ width: 70%;
+ margin:auto;
+  
+}
+

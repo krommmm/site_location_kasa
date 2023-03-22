@@ -1,0 +1,48 @@
+.description {
+	width: 30vw;
+	position: relative;
+	overflow: hidden;
+}
+
+.btnMoreInfo {
+	width: 30vw;
+	padding: 10px;
+	position: relative;
+	top: 0%;
+	z-index: 30;
+	font-size: 30px;
+	background-color: #ff6060;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ff6060;
+	display: flex;
+	justify-content: space-between;
+}
+
+.description .arrow {
+	width: 30px;
+	object-fit: contain;
+	transition: 400ms ease;
+}
+
+.description_text {
+	position: relative;
+
+	top: 0%;
+	z-index: 20;
+	padding: 10px;
+
+	transition: 400ms ease;
+	background: #f7f7f7;
+	border-radius: 5px;
+	color: #ff6060;
+	font-size: 25px;
+	margin: 0px;
+	margin-bottom:20px;
+}
+
+.description_text p {
+	margin: 0px;
+	padding: 15px;
+}

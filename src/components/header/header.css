@@ -1,0 +1,21 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:70%;
+    margin:auto;
+    padding: 30px;
+}
+
+.activeLink{
+    text-decoration:underline!important;
+   
+}
+
+.liens_header a{
+    text-decoration:none;
+    font-size: 25px;
+    color: #FF6060;
+    padding-left:30px;
+}
+
