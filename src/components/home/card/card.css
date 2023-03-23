@@ -9,11 +9,16 @@
 }
 
 
-.card {
+.card{
 	position: relative;
 	width: 340px;
 	height: 340px;
     margin:15px;
+	animation-name: defilement;
+	animation-duration: 400ms;
+	animation-fill-mode: forwards;
+	transition:400ms ease;
+	opacity:0;
 }
 
 .card .card_bg{
@@ -50,3 +55,35 @@
 	font-size: 26px;
 	font-weight: 500;
 }
+
+@keyframes defilement {
+	0% {
+	  opacity: 0;
+	  transform: translateY(15%);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0%);
+	}
+  }
+
+
+
+/*
+    animation-name: text_load_content;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text_load_content {
+    0% {
+   opacity:0;
+   transform:translate(-50%,0%);
+    }
+ 
+    100% {
+     opacity:1;
+     transform:translate(-50%,-50%);
+    }
+  }
+  */

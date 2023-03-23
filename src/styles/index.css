@@ -8,3 +8,5 @@
 @import "../components/profil//moreInfo//moreInfo.css";
 @import "../components/profil/moreInfo/description/description.css";
 @import "../components/profil/moreInfo/equipements/equipements.css";
+@import "../components/info/banner/InfoBanner.css";
+@import "../components/info/depliant/depliant.css";

@@ -1,15 +1,13 @@
-const Info = () => {
-	window.addEventListener("load", ()=>{
-		document.querySelector(".loading_content").classList.add("loading_content--hidden");
-		document.querySelector(".loading").classList.add("loading--hidden");
-	})
+import InfoBanner from "../components/info/banner/InfoBanner";
+import Depliant from "../components/info/depliant/Depliant";
 
+const Info = () => {
 	return (
 		<>
-			<div className="loading_content ">
-				<div className="loading "></div>
+			<div className="info">
+				<InfoBanner />
+				<Depliant />
 			</div>
-			<div className="info"></div>
 		</>
 	);
 };

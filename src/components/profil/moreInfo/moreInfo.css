@@ -18,7 +18,7 @@
     background-color: white;
 
     animation-name: load-content;
-    animation-duration: 5s;
+    animation-duration: 400ms;
     animation-fill-mode: forwards; 
     overflow: hidden;
     
@@ -30,16 +30,20 @@
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    animation: loading 5s ;
+    animation: loading 400ms ;
     animation-iteration-count: infinite;
   }
 
   .loading_content--hidden{
-    display:none;
+    visibility:hidden;
+    opacity:0;
+    overflow: visible;
   }
 
   .loading--hidden{
-    display:none;
+    visibility:hidden;
+    opacity:0;
+    overflow: visible;
   }
 
   
