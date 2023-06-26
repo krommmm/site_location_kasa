@@ -37,3 +37,24 @@
      transform:translate(-50%,-50%);
     }
   }
+
+  /*Mobile*/
+@media screen and (max-width: 600px){
+body .homeBanner img {
+    height:30vw;
+}
+body .textBanner {
+    font-size: 50px;
+    top:38%;
+    font-size: 5vw;
+  }
+}
+
+/*tablette*/
+@media screen and (max-width: 992px){
+    .textBanner{
+        font-size: 5vw;
+        top: 44%;
+    }
+
+}

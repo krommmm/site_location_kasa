@@ -10,8 +10,15 @@ const Description = (props) => {
 	useEffect(() => {
 		let arrowB = document.querySelector('.arrow');
 		let text = document.querySelector('.description_text');
+		var bodyWidth = document.querySelector("body").getBoundingClientRect().width;
 
-		text.style.transform = toggle ? 'translateY(-350px)' : 'translateY(0px)';
+		var textHeight = text.getBoundingClientRect().height;
+
+if(bodyWidth<993){
+	text.style.display="none";
+		text.style.display = toggle ? "none" : "flex"; 
+}
+		text.style.transform = toggle ? `translateY(-${textHeight}px)` : 'translateY(0px)';
 		arrowB.style.transform = toggle ? 'rotate(0deg)' : 'rotate(180deg)';
 	}, [toggle]);
 

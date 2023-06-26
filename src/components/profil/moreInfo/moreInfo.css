@@ -71,3 +71,23 @@
       transform: translateY(0%);
     }
   }
+
+  /*Mobile*/
+@media screen and (max-width: 600px){
+body .moreInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+
+
+}
+
+/*tablette*/
+@media screen and (max-width: 992px){
+  body .moreInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+  }
+} 

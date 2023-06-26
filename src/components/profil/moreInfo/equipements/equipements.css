@@ -30,3 +30,35 @@
 .equipements_text p{
     margin:0px;
 }
+
+
+/*Mobile*/
+@media screen and (max-width: 600px){
+	body .equipements .arrow2 {
+		width: 5vw;
+		margin-left:5px;
+	}
+	body .equipements {
+		width: 100%;
+	  }
+	body .equipements_text {
+		width: 100%;
+		font-size: 5vw;
+	}
+
+}
+
+/*tablette*/
+@media screen and (max-width: 992px){
+	body .equipements .arrow2 {
+		width: 3vw;
+		margin-left:5px;
+	}
+	body .equipements {
+		width: 100%;
+	  }
+	body .equipements_text {
+		width: 100%;
+		font-size: 3vw;
+	}
+} 

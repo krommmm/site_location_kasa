@@ -19,3 +19,28 @@
     padding-left:30px;
 }
 
+/*Mobile*/
+@media screen and (max-width: 600px){
+    .header .logo img{
+        width: 30vw;
+    }
+
+    body .header .liens_header a {
+  padding-left: 2vw;
+  font-size: 5vw;
+}
+}
+
+
+/*tablette*/
+@media screen and (max-width: 992px){
+    .header .logo img{
+        max-width: 200px;
+    }
+
+    .header .liens_header a {
+        padding-left: 15px;
+        
+      }
+
+}

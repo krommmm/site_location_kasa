@@ -45,3 +45,23 @@
 	bottom:3%;
 	left:50%;
 }
+
+/*Mobile*/
+@media screen and (max-width: 600px){
+	body .profilBanner .element_img {
+		height: 350px;
+	}
+	body .chevron_gauche, body .chevron_droit {
+		width: 5vw;
+	}
+}
+
+/*tablette*/
+@media screen and (max-width: 992px){
+	.profilBanner .element_img {
+		height: 40vw;
+	}
+	.chevron_gauche, .chevron_droit {
+		width: 5vw;
+	}
+} 

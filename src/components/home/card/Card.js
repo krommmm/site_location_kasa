@@ -12,6 +12,7 @@ const Component1 = () => {
 		let number = (i+1)*0.2;
 		document.querySelector(`.card_${i}`).style.animationDelay=`${number}s`;
 	}
+	
 },[]);
 	
 

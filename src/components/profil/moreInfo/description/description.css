@@ -46,3 +46,43 @@
 	margin: 0px;
 	padding: 15px;
 }
+
+/*Mobile*/
+@media screen and (max-width: 600px){
+	body .description .arrow {
+		margin-left:5px;
+		width: 5vw;
+	}
+	body .description {
+		width: 100%;
+		margin-bottom: 15px;
+	  }
+	  body .btnMoreInfo {
+		width: 100%;
+	  }
+	  body .description_text{
+		font-size: 5vw;
+	  }
+	
+
+}
+
+/*tablette*/
+@media screen and (max-width: 992px){
+	body .description .arrow {
+		margin-left:5px;
+		width: 3vw;
+	}
+	body .description {
+		width: 100%;
+		margin-bottom: 15px;
+	  }
+	  body .btnMoreInfo {
+		width: 100%;
+	  }
+	  body .description_text{
+		
+		font-size: 3vw;
+	  }
+	
+} 

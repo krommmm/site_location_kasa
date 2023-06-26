@@ -2,13 +2,14 @@
 	line-height: 0.3;
 	display: flex;
 	justify-content: space-between;
-    width:103%;
-    margin:auto;
+	width: 103%;
+	margin: auto;
 }
 
 .logement #title {
 	font-size: 40px;
-	color: #ff6060; 
+	color: #ff6060;
+	line-height: 47px;
 }
 
 .logement #location {
@@ -27,6 +28,7 @@
 	font-size: 20px;
 	padding: 13px;
 	margin-right: 10px;
+
 }
 
 .logement .host {
@@ -43,12 +45,71 @@
 
 .logement_right .host img {
 	border-radius: 50%;
-    width: 70px;
+	width: 70px;
 	margin-left: 10px;
 }
 
+.logement .logement_right .rating .star {
+	margin-left: 5px;
+	width: 35px;
+}
 
-.logement .logement_right .rating .star{
-    margin-left:5px;
-    width:35px;
+/*Mobile*/
+@media screen and (max-width: 600px) {
+	body .logement {
+		width: 105%;
+	}
+	body .logement #title {
+		font-size: 5vw;
+		line-height: 5vw;
+	}
+	body .logement #location {
+		font-size: 3vw;
+	}
+	body .tags {
+		flex-direction: column;
+	}
+	body .tag {
+		font-size: 4vw;
+	}
+	body .logement .host {
+		font-size: 4vw;
+	}
+	body .logement_right .host img {
+		width: 10vw;
+	}
+	body .logement .logement_right .rating .star {
+		width: 3vw;
+	}
+}
+
+/*tablette*/
+@media screen and (max-width: 992px) {
+	body .logement {
+		width: 105%;
+	}
+	body .logement #title {
+		font-size: 5vw;
+
+		line-height: 5vw;
+	}
+	body .logement #location {
+		font-size: 3vw;
+	}
+	body .tags {
+		flex-direction: column;
+	}
+	body .tag {
+		line-height: 15px;
+		font-size: 4vw;
+	}
+	body .logement .host {
+		font-size: 4vw;
+	}
+	body .logement_right .host img {
+		width: 10vw;
+	}
+	body .logement .logement_right .rating .star {
+		width: 3vw;
+	}
 }
