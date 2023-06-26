@@ -57,3 +57,12 @@
 	height: 25px;
 	transition: 400ms;
 }
+
+.btn_depliant {
+	font-size: 16px;
+  }
+  
+  .depliant .arrow, .arrow2, .arrow3, .arrow4 {
+	width: 16px;
+	height: 16px;
+  }

@@ -1,0 +1,20 @@
+[[redirects]]
+  from = "/Profil"
+  to = "/"
+  status = 301
+
+  [[redirects]]
+  from = "/A-propos-de-kasa"
+  to = "/"
+  status = 301
+
+  [[redirects]]
+  from = "/Contact"
+  to = "/"
+  status = 301
+
+[build]
+  command = "npm run build"
+  publish = "build"
+
+
