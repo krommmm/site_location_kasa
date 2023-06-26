@@ -13,7 +13,112 @@
   to = "/"
   status = 301
 
+    [[redirects]]
+  from = "/Profil/cb02d69b"
+  to = "/"
+  status = 301
+
+    [[redirects]]
+  from = "/Profil/6ff132c6"
+  to = "/"
+  status = 301
+
+
+
+    [[redirects]]
+  from = "/Profil/2139a317"
+  to = "/"
+  status = 301
+
+
+    [[redirects]]
+  from = "/Profil/cb2f9222"
+  to = "/"
+  status = 301
+  
+      [[redirects]]
+  from = "/Profil/d60ca600"
+  to = "/"
+  status = 301
+
+      [[redirects]]
+  from = "/Profil/2cf259e1"
+  to = "/"
+  status = 301
+
+      [[redirects]]
+  from = "/Profil/5323c29b"
+  to = "/"
+  status = 301
+
+      [[redirects]]
+  from = "/Profil/af6d2d48"
+  to = "/"
+  status = 301
+
+      [[redirects]]
+  from = "/Profil/7cbb378e"
+  to = "/"
+  status = 301
+
+      [[redirects]]
+  from = "/Profil/ba55a0cc"
+  to = "/"
+  status = 301
+
+      [[redirects]]
+  from = "/Profil/1e180563"
+  to = "/"
+  status = 301
+
+
+    [[redirects]]
+  from = "/Profil/b4c67936"
+  to = "/"
+  status = 301
+
+
+   [[redirects]]
+  from = "/Profil/f72a452f"
+  to = "/"
+  status = 301
+
+     [[redirects]]
+  from = "/Profil/0979876d"
+  to = "/"
+  status = 301
+
+     [[redirects]]
+  from = "/Profil/7af00cd6"
+  to = "/"
+  status = 301
+
+      [[redirects]]
+  from = "/Profil/46d188c5"
+  to = "/"
+  status = 301
+
+      [[redirects]]
+  from = "/Profil/b9123946"
+  to = "/"
+  status = 301
+
 [build]
   command = "npm run build"
   publish = "build"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
