@@ -13,6 +13,11 @@
   to = "/"
   status = 301
 
+   [[redirects]]
+  from = "/Profil/c67ab8a7"
+  to = "/"
+  status = 301
+
 [build]
   command = "npm run build"
   publish = "build"
