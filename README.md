@@ -1,8 +1,8 @@
 
 # Kasa (formation OpenClassrooms)
 
- <img style="width: 100px;" src="./src/images/git/1.png" alt="Game Workshop Logo">
-  <img style="width: 100px;" src="./src/images/git/2.png" alt="Game Workshop Logo">
+ <img style="width: 100px;" src="./kasa_app/src/images/git/1.png" alt="Game Workshop Logo">
+  <img style="width: 100px;" src="./kasa_app/src/images/git/2.png" alt="Game Workshop Logo">
 
 ## Intégration de maquètes avec réact
 
