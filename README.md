@@ -15,8 +15,8 @@
 
 ## Description:
 Front react boosted avec create-react-app.<br>
-Une page d'accueil avec des logements<br>
-Une page de focus sur un logement avec ses spécificités<br>
+Une page d'accueil avec des logements.<br>
+Une page de focus sur un logement avec ses spécificités.<br>
 
 
 
