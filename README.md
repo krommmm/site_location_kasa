@@ -14,7 +14,7 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 ## Description:
-Front react boosted avec create-react-app.<br>
+Front react bootstrapped avec create-react-app.<br>
 Une page d'accueil avec des logements.<br>
 Une page de focus sur un logement avec ses spécificités.<br>
 
