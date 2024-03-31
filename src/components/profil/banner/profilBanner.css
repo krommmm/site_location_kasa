@@ -28,6 +28,7 @@
 	position: absolute;
 	top: 40%;
 	width: 50px;
+	cursor:pointer;
 }
 
 .chevron_gauche {
